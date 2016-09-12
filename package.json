@@ -1,0 +1,26 @@
+{
+  "name": "grunt-worflow-demo",
+  "version": "1.0.0",
+  "description": "my grunt demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnUdacity/grunt-workflow-guide.git"
+  },
+  "keywords": [
+    "grunt",
+    "keywords"
+  ],
+  "author": "Rahul Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnUdacity/grunt-workflow-guide/issues"
+  },
+  "homepage": "https://github.com/JohnUdacity/grunt-workflow-guide#readme",
+  "devDependencies": {
+    "grunt-sass": "^1.2.1"
+  }
+}
