@@ -17,8 +17,14 @@ grunt.initConfig({
             src:config.jsSrcDir+'*.js',
             dest:config.jsConcatDir+'app.js'
          }
+     },
+    jshint : {
+        all:['Gruntfile.js',config.jsSrcDir+"*.js"]
     }
+
 });
-grunt.registerTask('default',['sass','concat']);
-}
+grunt.registerTask('default',[
+'jshint',
+    'sass','concat']);
+};
 
