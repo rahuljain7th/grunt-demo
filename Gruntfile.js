@@ -20,11 +20,18 @@ grunt.initConfig({
      },
     jshint : {
         all:['Gruntfile.js',config.jsSrcDir+"*.js"]
+    },
+    watch : {
+        sass:{
+            files: config.scssDir+'**/*.scss',
+            tasks: ['sass']
+        }
     }
 
 });
 grunt.registerTask('default',[
 'jshint',
-    'sass','concat']);
+    'sass','concat','watch']);
+
 };
 
